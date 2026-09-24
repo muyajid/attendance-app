@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* This UI is light-only: keep native form controls, scrollbars and
+     placeholders rendering light even when the OS is in dark mode. */
+  color-scheme: light;
 }
 
 @theme inline {
